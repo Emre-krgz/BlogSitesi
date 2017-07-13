@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Ana Sayfa";
+}
+
+@section Kategoriler{
+    @{ Html.RenderAction("KategoriWidget", "Kategori");}
+   
+}
+
+@section Etiketler{
+    @{
+        Html.RenderAction("EtiketWidger", "Etiket");
+    }
+}
+
+@section SiteArama{
+<div class="sidebox widget">
+    <h3 class="widget-title section-title">Arama</h3>
+    <form class="searchform" method="get">
+        <label><i class="icon-search"></i></label>
+        <input type="text" id="s2" name="s" value="Birşeyler Ara" onfocus="this.value=''" onblur="this.value='Search something'" />
+        <button type="submit" class="btn">Ara</button>
+    </form>
+</div>
+}
