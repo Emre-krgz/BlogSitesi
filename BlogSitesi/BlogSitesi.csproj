@@ -331,7 +331,6 @@
   <ItemGroup>
     <Compile Include="App_Classes\Settings.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BlogSitesiContext.cs" />
     <Compile Include="Controllers\EtiketController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
@@ -401,6 +400,10 @@
     <Content Include="Views\Kategori\KategoriWidget.cshtml" />
     <Content Include="Views\Etiket\EtiketWidger.cshtml" />
     <Content Include="Views\Home\PopulerMakalelerWidget.cshtml" />
+    <Content Include="Views\Shared\MakaleListeleWidget.cshtml" />
+    <Content Include="Views\Kategori\Index.cshtml" />
+    <Content Include="Views\Shared\SiteHakkinda.cshtml" />
+    <Content Include="Views\Shared\Arama.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

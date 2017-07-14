@@ -15,6 +15,16 @@ namespace BlogSitesi.Controllers
         {
             return View();
         }
+        public ActionResult MakaleListele()
+        {
+            var data = context.Makales.ToList();
+            return View("MakaleListeleWidget",data);
+        }
+
+        public PartialViewResult SiteHakkinda()
+        {
+            return PartialView("SiteHakkinda");
+        }
 
         public PartialViewResult PopulerMakalelerWidget()
         {
