@@ -39,6 +39,15 @@ namespace BlogSitesi.App_Classes
                 return sonuc;
             }
         }
-
+        public static Size YazarResimBoyut
+        {
+            get
+            {
+                Size sonuc = new Size();
+                sonuc.Width = Convert.ToInt32(ConfigurationManager.AppSettings["yazar"]);
+                sonuc.Height = Convert.ToInt32(ConfigurationManager.AppSettings["yazar"]);
+                return sonuc;
+            }
+        }
     }
 }

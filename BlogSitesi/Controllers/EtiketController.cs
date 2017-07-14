@@ -11,14 +11,20 @@ namespace BlogSitesi.Controllers
     {
         BlogDbContext context = new BlogDbContext();
         // GET: Etiket
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
-            return View();
+            return View(id);
         }
 
         public PartialViewResult EtiketWidger()
         {
             return PartialView(context.Etikets.ToList());
+        }
+
+        public ActionResult MakaleListele(int id)
+        {
+            var data = context.Makales.Where(x => x.MakaleEtikets.Any(y=>y.EtiketId==id)).ToList();
+            return View("MakaleListeleWidget", data);
         }
     }
 }

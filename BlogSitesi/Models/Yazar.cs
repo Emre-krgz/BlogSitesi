@@ -17,7 +17,11 @@ namespace BlogSitesi.Models
         public string MailAdres { get; set; }
         public string Aciklama { get; set; }
         public Nullable<bool> Cinsiyet { get; set; }
+        public string KullaniciAdi { get; set; }
+        public string Sifre { get; set; }
+        public Nullable<int> ResimId { get; set; }
         public virtual ICollection<Makale> Makales { get; set; }
+        public virtual Resim Resim { get; set; }
         public virtual ICollection<Kullanici> Kullanicis { get; set; }
     }
 }

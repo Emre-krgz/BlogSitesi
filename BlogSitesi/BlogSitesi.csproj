@@ -130,7 +130,16 @@
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Context.tt" />
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Entity.tt" />
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Mapping.tt" />
+    <Content Include="Content\blog-post.html" />
     <Content Include="Content\blog.html" />
+    <Content Include="Content\image\csharp.jpg" />
+    <Content Include="Content\image\defaultUser.png" />
+    <Content Include="Content\MakaleResim\BuyukBoyut\csharp.jpg" />
+    <Content Include="Content\MakaleResim\BuyukBoyut\iphone.jpg" />
+    <Content Include="Content\MakaleResim\KucukBoyut\c.png" />
+    <Content Include="Content\MakaleResim\KucukBoyut\iphone.jpg" />
+    <Content Include="Content\MakaleResim\OrtaBoyut\cOrta.jpg" />
+    <Content Include="Content\MakaleResim\OrtaBoyut\iphone.jpg" />
     <Content Include="Content\style.css" />
     <Content Include="Content\style\css\blank.html" />
     <Content Include="Content\style\css\bootstrap.min.css" />
@@ -334,6 +343,7 @@
     <Compile Include="Controllers\EtiketController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
+    <Compile Include="Controllers\MakaleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -404,6 +414,8 @@
     <Content Include="Views\Kategori\Index.cshtml" />
     <Content Include="Views\Shared\SiteHakkinda.cshtml" />
     <Content Include="Views\Shared\Arama.cshtml" />
+    <Content Include="Views\Etiket\Index.cshtml" />
+    <Content Include="Views\Makale\Detay.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

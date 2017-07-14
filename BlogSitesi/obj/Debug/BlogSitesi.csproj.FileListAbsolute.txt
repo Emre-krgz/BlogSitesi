@@ -96,3 +96,4 @@ C:\Users\Karagoz\Desktop\Git\BlogSitesi\BlogSitesi\bin\roslyn\VBCSCompiler.exe.c
 C:\Users\Karagoz\Desktop\Git\BlogSitesi\BlogSitesi\bin\BlogSitesi.dll.config
 C:\Users\Karagoz\Desktop\Git\BlogSitesi\BlogSitesi\bin\BlogSitesi.dll
 C:\Users\Karagoz\Desktop\Git\BlogSitesi\BlogSitesi\bin\BlogSitesi.pdb
+C:\Users\Karagoz\Desktop\Git\BlogSitesi\BlogSitesi\obj\Debug\BlogSitesi.csprojResolveAssemblyReference.cache
